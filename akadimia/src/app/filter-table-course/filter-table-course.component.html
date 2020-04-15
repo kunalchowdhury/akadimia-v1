@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<ng-template #dynamicComponent></ng-template>
+
+<div class="header" *ngIf="router.url.startsWith('/filter-table-course')" >
+  <h2>Course Tutor Selection Screen</h2>
+  <button mat-button (click)="goBack()"><mat-icon>home</mat-icon></button>
+</div>
+
+<form class="form-inline md-form mr-auto mb-4">
+  <div class="column">
+
+    <mat-form-field style="margin-top: 40px">
+      <mat-label style="margin-top: 5px">Select Subject</mat-label>
+      <mat-select [(ngModel)]="selectedSubject" name="subject">
+        <mat-option *ngFor="let subject of subjects" [value]="subject.viewValue">
+          {{subject.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+  </div>
+
+  <div class="column">
+    <mat-form-field style="margin-top: 15px">
+      <mat-label style="margin-bottom: 0px">From date</mat-label>
+      <input matInput placeholder="Enter From Date Time"
+             [min]="todayDate"
+             [(ngModel)]="fromDateTime"
+             name ="dt1"
+             [owlDateTimeTrigger]="dt1" [owlDateTime]="dt1">
+      <owl-date-time #dt1></owl-date-time>
+    </mat-form-field>
+    <br><br><br>
+
+    <mat-form-field style="margin-top: 15px">
+      <mat-label style="margin-bottom: 0px">To date</mat-label>
+      <input matInput placeholder="Enter End Date Time"
+             [min]="todayDate"
+             [(ngModel)]="toDateTime"
+             name ="dt"
+             [owlDateTimeTrigger]="dt" [owlDateTime]="dt">
+      <owl-date-time #dt></owl-date-time>
+    </mat-form-field>
+
+  </div>
+  <div class="column">
+    <mat-form-field style="margin-top: 15px; text-align: left" >
+      <mat-label>Locality - [Disabled for Online Sessions]</mat-label>
+      <label>
+        <input matInput
+               style="text-align: left; width: 450px"
+               [disabled]="true"
+               matGoogleMapsAutocomplete
+               [country]="in"
+               (onAutocompleteSelected)="onAutocompleteSelected($event)"
+               (onLocationSelected)="onLocationSelected($event)">
+      </label>
+    </mat-form-field>
+
+  </div>
+
+  <div class="divider">
+  <button mat-raised-button color="primary" (click)="searchSessions()">Search</button>
+  </div>
+</form>
+
+<mat-form-field>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Filter by subject, coach name etc.">
+</mat-form-field>
+
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8" >
+
+<!-- Checkbox Column -->
+    <ng-container matColumnDef="select">
+      <mat-header-cell *matHeaderCellDef ></mat-header-cell>
+      <mat-cell *matCellDef="let row">
+        <mat-radio-group style="size: 1px; margin-top: 15px; margin-bottom: 15px" [(ngModel)]="selectedSession" (change)="onselectedRow(row.sessionid)">
+          <mat-radio-button style="size: 1px; margin-top: 15px" [value]="row"></mat-radio-button>
+        </mat-radio-group>
+      </mat-cell>
+    </ng-container>
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="subject">
+      <th mat-header-cell *matHeaderCellDef > Subject </th>
+      <td mat-cell *matCellDef="let element"> {{element.subject}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Coach Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="area">
+      <th mat-header-cell *matHeaderCellDef> Area </th>
+      <td mat-cell *matCellDef="let element"> {{element.area}} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="datefrom">
+      <th mat-header-cell *matHeaderCellDef> Start Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.datefrom}} </td>
+    </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="dateto">
+    <th mat-header-cell *matHeaderCellDef> End Date </th>
+    <td mat-cell *matCellDef="let element"> {{element.dateto}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="sessionid">
+    <th mat-header-cell *matHeaderCellDef> Session Id </th>
+    <td mat-cell *matCellDef="let element"> {{element.sessionid}} </td>
+  </ng-container>
+
+
+  <ng-container matColumnDef="url">
+    <th mat-header-cell *matHeaderCellDef style="text-align: left" >Sample Video</th>
+    <td mat-cell *matCellDef="let element" >
+      <a href="{{element.url}}"  target="_blank" style="text-align: left" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill">
+        Open Link
+      </a>
+    </td>
+  </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"
+        (click)="selection.toggle(row)"></tr>
+  </table>
+
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons pageSize="5"></mat-paginator>
+</body>
+</html>

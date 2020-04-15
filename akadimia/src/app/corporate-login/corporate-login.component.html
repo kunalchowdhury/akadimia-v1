@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+</head>
+<body>
+<mat-toolbar color="primary" class="expanded-toolbar" >
+    <span>
+      <button mat-button routerLink="/">{{title}}</button>
+      <button mat-button routerLink="/"><mat-icon>home</mat-icon></button>
+    </span>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm>
+    <button mat-button routerLink="/login" *ngIf="!isAuthenticated">
+      <mat-icon>power_settings_new</mat-icon>
+      Login
+    </button>
+    <button mat-button *ngIf="isAuthenticated" (click)="logout()">
+      <mat-icon>exit_to_app</mat-icon>
+      Logout
+    </button>
+    <button mat-button routerLink="/game">
+      <mat-icon>gamepad</mat-icon>
+      Classes
+    </button>
+  </div>
+  <button mat-button [mat-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-menu x-position="before" #menu="matMenu">
+  <button mat-menu-item routerLink="/">
+    <mat-icon>home</mat-icon>
+    Home
+  </button>
+  <button mat-menu-item routerLink="/game">
+    <mat-icon>gamepad</mat-icon>
+    Play
+  </button>
+  <button mat-menu-item routerLink="/login" *ngIf="!isAuthenticated">
+    <mat-icon>power_settings_new</mat-icon>
+    Login
+  </button>
+  <button mat-menu-item *ngIf="isAuthenticated" (click)="logout()">
+    <mat-icon>exit_to_app</mat-icon>
+    Logout
+  </button>
+</mat-menu>
+<div class="column1" *ngIf="router.url == '/corporate-login'">
+  <h2>Some top-rated courses</h2>
+  <p>Capital Markets</p>
+  <p>Basics of Trading</p>
+  <p>Advanced Trading using Python</p>
+  <p>Behavioural Trainings</p>
+  <p>Performance Management</p>
+  <p>Corporate Ethics</p>
+  <p>Difficult Conversation</p>
+
+</div>
+<div class="column2" *ngIf="router.url == '/corporate-login'">
+  <h2>Corp Connect</h2>
+  <p>Welcome to Corporate Login Page</p>
+  <p>We cater to all sort of corporate trainings and even take care of the end to end
+  logistics. Just login and select the relevant trainings and regiester for a demo session and we will get back to you .
+  </p>
+</div>
+<router-outlet></router-outlet>
+</body>

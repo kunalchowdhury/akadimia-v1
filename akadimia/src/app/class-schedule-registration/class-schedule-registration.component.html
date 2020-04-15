@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="header" *ngIf="router.url.startsWith('/class-schedule-registration')" >
+  <h2>Class Schedule Registration Form</h2>
+  <button mat-button (click)="goBack()"><mat-icon>home</mat-icon></button>
+</div>
+
+<form class="form-inline md-form mr-auto mb-4">
+  <div class="column1">
+    <mat-form-field style="margin-top: 40px">
+      <mat-label style="margin-top: 5px">Select Subject</mat-label>
+      <mat-select [(ngModel)]="selectedSubject" name="subject">
+        <mat-option *ngFor="let subject of subjects" [value]="subject.name">
+          {{subject.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="column1">
+    <mat-form-field style="margin-top: 15px">
+      <mat-label style="margin-bottom: 0px">From date</mat-label>
+      <input matInput placeholder="Enter From Date Time"
+             [min]="todayDate"
+             [(ngModel)]="fromDateTime"
+             name ="dt1"
+             [owlDateTimeTrigger]="dt1" [owlDateTime]="dt1">
+      <owl-date-time #dt1></owl-date-time>
+    </mat-form-field>
+    <br><br><br>
+
+    <mat-form-field style="margin-top: 15px">
+      <mat-label style="margin-bottom: 0px">To date</mat-label>
+        <input matInput placeholder="Enter End Date Time"
+               [min]="todayDate"
+               [(ngModel)]="toDateTime"
+               name ="dt"
+               [owlDateTimeTrigger]="dt" [owlDateTime]="dt">
+        <owl-date-time #dt></owl-date-time>
+    </mat-form-field>
+
+    <br>
+    <div class="divider">
+      <button mat-raised-button color="primary" (click)="submitForm()">Submit Registration</button>
+    </div>
+  </div>
+  <div class="column1">
+    <mat-form-field style="margin-top: 15px; text-align: left" >
+      <mat-label>Locality</mat-label>
+      <label>
+        <input matInput
+               style="text-align: left; width: 450px"
+               matGoogleMapsAutocomplete
+               [country]="in"
+               (onAutocompleteSelected)="onAutocompleteSelected($event)"
+               (onLocationSelected)="onLocationSelected($event)">
+      </label>
+    </mat-form-field>
+    <br><br><br><br>
+    <mat-form-field style="margin-top: 15px; text-align: left" >
+      <mat-label>Sample Video</mat-label>
+      <input matInput type="url" [(ngModel)]="urldesc" name="urldesc" [value]="urldesc" >
+    </mat-form-field>
+
+  </div>
+
+
+</form>
+
+
+</body>
+</html>

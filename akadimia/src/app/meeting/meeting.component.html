@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+<div class="header" id="clockbox" *ngIf="router.url.startsWith('/meeting')">
+  <h2>Akadimía Online Classroom</h2>
+  <p><i>Session ongoing for <b> {{subjectId}} </b> by <b> {{instructor}} [{{instructorId}}] </b> for <b>  [{{studentId}}] </b> @ </i>
+   <b> <i> {{ time | date: 'dd-MMM-yyyy hh:mm:ss a' : 'GMT'}} GMT</i></b>
+  </p>
+  <h5>For urgent technical assistance call +91-974-265-2223</h5>
+  <button  mat-button routerLink="/"><mat-icon>home</mat-icon></button>
+</div>
+
+
+  <div class="column" *ngIf="router.url.startsWith('/meeting')">
+
+    <h3>Remote Video Feed </h3>
+  <video id="device" controls autoplay #remote></video>
+  <br>
+    <h3>Your Video Feed</h3>
+  <video id="me" controls autoplay #me></video>
+
+  </div>
+
+  <div class="column" *ngIf="router.url.startsWith('/meeting')">
+
+    <h3>Remote Desktop</h3>
+  <video id="deviceScreen" controls autoplay #remoteScreen></video>
+    <br>
+    <h3>Your Desktop</h3>
+  <video id="meScreen" controls autoplay #meScreen></video>
+    <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button  mat-raised-button color="primary" (click)="showRemote()" >Connect</button>&nbsp; &nbsp; &nbsp; &nbsp;<button mat-raised-button color="primary" (click)="showRemoteScreen()" >Share Screen</button>&nbsp; &nbsp; &nbsp; &nbsp; <button mat-raised-button color="warn" (click)="hangup()" >Disconnect</button>
+
+  </div>
+
+
+</body>
+</html>

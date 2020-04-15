@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="header" *ngIf="router.url == '/social-media-login'" >
+  <h2>Akadimía Personal Login</h2>
+  <button mat-button routerLink="/"><mat-icon>home</mat-icon></button>
+</div>
+<div class="column1"> </div>
+<div class="column2">
+  <p>
+  <input type="text" name="username" placeholder="Personal Email" required>
+  </p>
+  <p>  <input type="password" name="password" placeholder="Password" required> </p>
+  <input type="submit" value="Login">
+  <p style="margin-left:190px;"><a routerLink="/forgot-password" style="color-adjust: economy" class="mat-h4" >Forgot password?</a>
+  <!--<p style="margin-left:175px;"><a routerLink="/profile-editor" style="color-adjust: economy" class="mat-h4" >New User Registration</a>-->
+  </p>
+
+
+  <button type="button" mdbBtn color="fb" class="fb btn1" mdbWavesEffect  (click)="socialSignIn('facebook')">
+    <i class="fa fa-facebook fa-fw"></i> Login with Facebook</button>
+<!--
+
+  <a href="#" style="margin-left: 1px" class="fb btn1"  (click)="socialSignIn('facebook')">
+    <i class="fa fa-facebook fa-fw"></i> Login with Facebook</a>
+-->
+
+
+  <div class="divider"></div>
+
+    <a href="#" class="linkedin btn1" (click)="socialSignIn('linkedin')">
+      <i class="fa linkedin fa-fw"></i> Login with LinkedIn
+    </a>
+  <div class="divider"></div>
+
+  <a href="#" class="google btn1" (click)="socialSignIn('google')">
+      <i class="fa fa-google fa-fw"></i> Login with Google+
+    </a>
+
+
+</div>
+
+</body>
+</html>

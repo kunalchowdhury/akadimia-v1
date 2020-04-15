@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .nav {
+      background-color: #5f88ff;
+      list-style-type: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      margin-outside: 100;
+    }
+
+    .nav li {
+      display: inline-block;
+      font-family: "Comic Sans MS";
+      font-size: medium;
+      padding: 20px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+<div class="header" *ngIf="router.url == '/'">
+  <h2>Akadimía Home</h2>
+  <p><i>The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn,
+    and relearn ~ Alvin Toffler</i></p>
+</div>
+
+<ul class="nav" *ngIf="router.url == '/'">
+  <li><a routerLink="/">Home</a></li>
+  <li><a routerLink="/">About Us</a></li>
+  <li><a routerLink="/">Our Clients</a></li>
+  <li><a routerLink="/">Contact Us</a></li>
+</ul>
+<div class="column" *ngIf="router.url == '/'">
+  <!--<img class="banner" src="//notrealdomain1.com/banner.png"> -->
+  <video width="320" height="240" controls>
+    <source src="../assets/Akadimia_360p.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="column" *ngIf="router.url == '/'">
+  <h2>What is Akadimía ?</h2>
+  <p>Akadimia is a pool of highly talented instructors and tutors to meet the need of focussed private coaching. Whether summer camps,
+    story-telling teachers, private tutors, coach
+  or motivational speakers , Akadimia provides the end user with a platform to evaluate, choose and execute time bound targetted training session without worrying
+    about the hassles of logistics.
+    </p>
+  <p>
+    Do you have any requirement for a specific training ? </p>
+  <p> Get in touch with us today.</p>
+  <p>
+    We strive to find out the best in class teachers suited to your location, subject and time that is within your budget.
+  </p>
+  <p>
+    You can also opt to be a trainer yourself and showcase your talent.
+  </p>
+</div>
+
+
+<div class="column" *ngIf="router.url == '/'">
+  <h2>How does it all work?</h2>
+  <p>Register on our platform as a Corporate or Individual and search for trainings you are looking for along with your location and time slots</p>
+  <p>Our intelligent search engine returns the tutors based on their talent scores who are available to take up the assignment </p>
+  <p>You can then opt to have a physical or online demo session</p>
+  <p>Once you are comfortable to go ahead you complete the formalities and leave it to us to execute the rest of the stuff</p>
+</div>
+
+<div id="fab-dismiss"
+     *ngIf="fabTogglerState==='active'"
+     (click)="onToggleFab()">
+</div>
+<div class="fab-container" *ngIf="router.url == '/'">
+  <button mat-fab class="fab-toggler"
+          (click)="onToggleFab()">
+    <i class="material-icons" [@fabToggler]="{value: fabTogglerState}">add</i> <!-- Animation here -->
+  </button>
+  <div [@speedDialStagger]="buttons.length"> <!-- and here -->
+    <button *ngFor="let btn of buttons ; let i=index"
+            mat-fab
+            class="fab-secondary"
+            color="secondary"
+            (click)="route(btn.icon)"
+    >
+      <i class="material-icons md-tooltip--top" >{{btn.icon}}</i>
+
+    </button>
+    <!--  <button mat-fab class="nav-item nav-link-edit" [routerLink]="['corporate-login']">
+        <i class="material-icons md-tooltip&#45;&#45;top" data-md-tooltip="Corporate">apartment</i>
+      </button >
+  -->
+
+  </div>
+
+</div>
+
+</body>
+<router-outlet></router-outlet>
+
+</html>
+

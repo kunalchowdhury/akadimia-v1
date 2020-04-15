@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" xmlns:margin-left="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="header" *ngIf="router.url.startsWith('/social-media-landing')" >
+  <h2>Akadimía Personal</h2>
+  <button mat-button routerLink="/"><mat-icon>home</mat-icon></button>
+</div>
+<div class="column1" *ngIf="router.url.startsWith('/social-media-landing')" >
+  <h2>Quick Links</h2>
+  <p><a (click)="routeFilterTableCourse()" style="color-adjust: economy" class="mat-h4" >Book a Slot</a>
+  <p><a (click)="routeProfileEditor()" style="color-adjust: economy" class="mat-h4" >Register Yourself</a>
+  <p><a (click)="schedSessAsInst()" style="color-adjust: economy" class="mat-h4" >Schedule Session as an Instructor</a>
+
+  <p><a routerLink="/social-media-login" style="color-adjust: economy" class="mat-h4" >Logout</a>
+</div>
+<div class="column2" *ngIf="router.url.startsWith('/social-media-landing')" >
+  <h2>View all your assigned or booked classes here</h2>
+
+  <mat-form-field>
+    <input matInput [width]="500" (keyup)="applyFilter($event)" placeholder="Filter by subject, coach name etc." >
+  </mat-form-field>
+
+  <table mat-table  [dataSource]="dataList" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="position" >
+      <th mat-header-cell width="70px" *matHeaderCellDef> No. </th>
+      <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="instructor">
+      <th mat-header-cell width="100px" *matHeaderCellDef> Instructor </th>
+      <td mat-cell *matCellDef="let element"> {{element.instructor}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="subject">
+      <th mat-header-cell width="100px"  *matHeaderCellDef> Subject </th>
+      <td mat-cell *matCellDef="let element"> {{element.subject}} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="startdate">
+      <th mat-header-cell width="150px"  *matHeaderCellDef> Start Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.startdate}} </td>
+    </ng-container>
+
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="enddate">
+      <th mat-header-cell width="150px"  *matHeaderCellDef> End Date </th>
+      <td mat-cell *matCellDef="let element"> {{element.enddate}} </td>
+    </ng-container>
+
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="videolink">
+      <th mat-header-cell width="100px"  *matHeaderCellDef> Video Link </th>
+      <td mat-cell *matCellDef="let videoElement">
+        <a href="{{videoElement.videolink}}" target="_blank" style="text-align: left" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill">
+          Open Link
+        </a>
+      </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="status">
+      <th mat-header-cell width="150px"  *matHeaderCellDef> Booking Status </th>
+      <td mat-cell *matCellDef="let element"> {{element.status}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+</div>
+</body>
+<router-outlet></router-outlet>
+
+</html>

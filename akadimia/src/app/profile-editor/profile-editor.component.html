@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="header" *ngIf="router.url.startsWith('/profile-editor')" >
+  <h2>New User Registration Form</h2>
+  <button mat-button (click)="goBack()"><mat-icon>home</mat-icon></button>
+</div>
+
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <div class="column2">
+  <mat-label>
+    First Name:<br><br>
+    <input type="text" formControlName="firstName" style="width: 300px;height: 20px">
+  </mat-label>
+  <br><br>
+  <mat-label>
+    Last Name:<br><br>
+    <input type="text" formControlName="lastName" style="width: 300px;height: 20px">
+  </mat-label>
+    <br><br>
+    <mat-label>
+      E-Mail ID:<br><br>
+      <input type="email" formControlName="email" style="width: 300px;height: 20px">
+    </mat-label>
+    <br><br>
+
+    <mat-label>
+      Phone :<br><br>
+      <input type="phone" formControlName="phone" style="width: 300px;height: 20px">
+    </mat-label>
+    <br><br>
+    <form>
+      <mat-label>
+        State:<br><br>
+      </mat-label>
+      <mat-form-field>
+        <mat-label>Choose State</mat-label>
+        <mat-select [(ngModel)]="selectedValueState" name="state" (ngModelChange)="changeCountry()">
+          <mat-option *ngFor="let state of states" [value]="state.name">
+            {{state.name}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <br><br>
+      <mat-label>
+        City:<br><br>
+      </mat-label>
+      <mat-form-field>
+        <mat-label>Choose City</mat-label>
+        <mat-select [(ngModel)]="selectedValueCity" name="city">
+          <mat-option *ngFor="let city of cities" [value]="city">
+            {{city}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+
+    </form>
+
+    <div formGroupName="address">
+      <div class="form-group">
+    <!--<mat-label>
+      State:<br><br>
+    </mat-label>-->
+      <!--<input type="text" formControlName="state" style="width: 300px;height: 20px">-->
+    <!--  <mat-select placeholder="State" style="height: 25px;width: 200px" (change)="changeCountry($event.target.value)">
+        <mat-option *ngFor ="let count of countryList" >{{count.name}} </mat-option>
+      </mat-select>
+-->
+ <!--     <mat-select [(ngModel)]="selectedValueState" name="state" >
+        <mat-option *ngFor="let state of states" [value]="state.name">
+          {{state.name}}
+        </mat-option>
+      </mat-select>-->
+
+
+      </div>
+    <br>
+
+<!--
+
+      <div class="form-group">
+    <mat-label>
+      City:<br><br>
+      &lt;!&ndash;<input type="text" formControlName="city" style="width: 300px;height: 20px">&ndash;&gt;
+      <mat-select placeholder="City" style="height: 25px;width: 200px">
+        <mat-option *ngFor ="let city of cities" >{{city.name}} </mat-option>
+      </mat-select>
+    </mat-label>
+      </div>
+    <br>
+    <br>
+-->
+
+      <div class="form-group">
+    <mat-label>
+      Zipcode: <br><br>
+      <input type="number" formControlName="zipcode" style="width: 100px;height: 20px ">
+    </mat-label>
+      </div>
+  </div>
+  </div>
+  <div class="column2">
+    <mat-label>Type of User</mat-label><br><br>
+    <mat-radio-group aria-label="Registration Type">
+      <mat-radio-button value="coach"  (click)="toggle('Coach')" >Coach</mat-radio-button> <br><br>
+      <mat-radio-button value="customer" checked="checked" (click)="toggle('Customer')">Customer</mat-radio-button>
+    </mat-radio-group>
+    <br><br>
+    <div class="form-group">
+      <textarea type="text" [(ngModel)]="desc" [attr.disabled]="coachenabled ? '' : null" placeholder="Brief Description About Yourself" formControlName="selfdescription" style="width: 500px; height: 300px"></textarea>
+    </div>
+      <br><br>
+    <div class="form-group">
+    <input type="url" [(ngModel)]="urldesc" [attr.disabled]="coachenabled ? '' : null" placeholder="URL YouTube Video Sample" formControlName="videourl" style="width: 500px; height: 30px ">
+    </div>
+    <br><br>
+    <button type="button" style="width: 100px;height: 30px; margin-left: 150px" [disabled]="!profileForm.valid" (click)="save()" >Submit</button>
+    </div>
+    <br><br>
+
+</form>
+
+
+
+</body>

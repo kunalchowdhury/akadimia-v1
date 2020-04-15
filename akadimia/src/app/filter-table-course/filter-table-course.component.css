@@ -1,0 +1,409 @@
+p span { color: black; font-size: smaller; }
+
+#ui-datepicker-div { font-size:11px; }
+
+.md-datepicker-button {
+  width: 36px;
+}
+.md-datepicker-input-container {
+  margin-right: 2px;
+}
+.md-datepicker-input-container {
+  display: compact;
+}
+.md-datepicker-input[placeholder] {
+  color:red;
+}
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.active-pink input[type=text] {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.active-purple-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+
+.active-purple input[type=text] {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.active-cyan input[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.active-cyan .fa,
+.active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+
+.active-purple .fa,
+.active-purple-2 .fa {
+  color: #ce93d8;
+}
+
+.active-pink .fa,
+.active-pink-2 .fa {
+  color: #f48fb1;
+}
+.mat-table{
+  height: 100px;
+  font-size: medium;
+}
+.mat-input{
+  text-align: left;
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+.mat-cell {
+  font-size: small;
+}
+
+.mat-header-cell{
+  font-size: medium;
+}
+table {
+  width: 100%;
+}
+* {box-sizing: border-box}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px 0 30px 0;
+}
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 145px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: small;
+  line-height: 20px;
+
+  text-align: center;
+  text-decoration: none; /* remove underline from anchors */
+}
+.divider{
+  top: 100px;
+  width:20px;
+  height:auto;
+  display:inline-block;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+.btn1 {
+  width: 145px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: small;
+  line-height: 20px;
+  font-family: "Corsiva Hebrew", fantasy;
+  text-align: center;
+  text-decoration: none; /* remove underline from anchors */
+
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.linkedin {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  display: block;
+  margin-top: 0;
+}
+.mat-raised-button{
+  margin-right: 0px;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.mat-column-subject {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 24% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  align-content: center;
+  text-align: center;
+}
+
+.mat-column-dateto {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 28% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.mat-column-datefrom {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 18% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.mat-column-area {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 18% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-align: center;
+}
+.mat-column-name {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 28% !important;
+  width: 18% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  text-align: center;
+}
+/* Create three equal columns that floats next to each other */
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-top: 65px;
+  display: block;
+  font-size: small;
+}
+
+
+input[type=text] {
+  width: 50%;
+  height: 10px;
+  padding: 12px 20px;
+  box-sizing: content-box;
+  font-size: small;
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+  size: 5px;
+  margin-left: 75px;
+
+}
+
+input[type=password] {
+  width: 50%;
+  height: 10px;
+  padding: 12px 20px;
+  box-sizing: content-box;
+  font-size: small;
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+  size: 5px;
+  margin-left: 75px;
+
+}
+
+
+input[type=submit] {
+  width: 14%;
+  height: 5px;
+  padding: 12px 20px;
+  box-sizing: content-box;
+  font-size: small;
+  border: 2px solid cornflowerblue;
+  border-radius: 4px;
+  size: 5px;
+  margin-left: 185px;
+  vertical-align: top;
+
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
