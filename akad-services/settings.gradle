@@ -1,0 +1,23 @@
+rootProject.name = 'akad-services'
+include 'api'
+include 'util'
+include 'microservices'
+include 'user-service'
+include 'reservation-request-service'
+include 'microservices'
+include 'microservices'
+findProject(':microservices')?.name = 'user-service'
+include 'microservices'
+include 'microservices'
+findProject(':microservices')?.name = 'microservices'
+include 'microservices:user-service'
+findProject(':microservices:user-service')?.name = 'user-service'
+include 'microservices:session-service'
+findProject(':microservices:session-service')?.name = 'session-service'
+
+include 'microservices:reservation-request-service'
+findProject(':microservices:reservation-request-service')?.name = 'reservation-request-service'
+
+include 'api'
+include 'reservation-request-service'
+

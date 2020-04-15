@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f716ec8d-e32d-4571-851e-6da082624961" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/api/.gradle/" />
+    <ignored path="$PROJECT_DIR$/api/build/" />
+    <ignored path="$PROJECT_DIR$/api/out/" />
+    <ignored path="$PROJECT_DIR$/util/.gradle/" />
+    <ignored path="$PROJECT_DIR$/util/build/" />
+    <ignored path="$PROJECT_DIR$/util/out/" />
+    <ignored path="$PROJECT_DIR$/microservices/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservices/build/" />
+    <ignored path="$PROJECT_DIR$/microservices/out/" />
+    <ignored path="$PROJECT_DIR$/user-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/user-service/build/" />
+    <ignored path="$PROJECT_DIR$/user-service/out/" />
+    <ignored path="$PROJECT_DIR$/microservices/user-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservices/user-service/build/" />
+    <ignored path="$PROJECT_DIR$/microservices/user-service/out/" />
+    <ignored path="$PROJECT_DIR$/microservices/session-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservices/session-service/build/" />
+    <ignored path="$PROJECT_DIR$/microservices/session-service/out/" />
+    <ignored path="$PROJECT_DIR$/reservation-request-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/reservation-request-service/build/" />
+    <ignored path="$PROJECT_DIR$/reservation-request-service/out/" />
+    <ignored path="$PROJECT_DIR$/microservices/reservation-request-service/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservices/reservation-request-service/build/" />
+    <ignored path="$PROJECT_DIR$/microservices/reservation-request-service/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/microservices">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/microservices/session-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices:session-service" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices:session-service" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices:session-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="akad-services" type="f1a62948:ProjectNode" />
+                <item name=":microservices:session-service" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/SessionService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices/session-service/out/production/classes/com/akadimia/microservices/core/session/services/SessionServiceImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="184" column="41" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/reservation/ConfirmedReservationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/services/ConfirmedReservationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-799">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/entity/user/ReservationRequestSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="51" column="88" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservices/user-service/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring.rabbitmq</find>
+      <find>rabbitmq</find>
+      <find>rabbit</find>
+      <find>phone</find>
+      <find>unpr</find>
+      <find>kafka</find>
+      <find>spring-messaging</find>
+      <find>key.serializer</find>
+      <find>session-d</find>
+      <find>-db</find>
+      <find>spring</find>
+      <find>main</find>
+      <find>server.port</find>
+      <find>local</find>
+      <find>localhost</find>
+      <find>ec2-3-21-240-234.us-east-2.compute.amazonaws.com:42</find>
+      <find>https://ec2-3-21-240-234.us-east-2.compute.amazonaws.com</find>
+      <find>sha</find>
+      <find>p12</find>
+      <find>online</find>
+      <find>sessionser</find>
+      <find>http://localhost</find>
+      <find>https</find>
+      <find>https://</find>
+      <find>http:://</find>
+      <find>http://</find>
+      <find>host.</find>
+      <find>ec2</find>
+      <find>@CrossOrigin(origins = &quot;https://ec2-3-21-240-234.us-east-2.compute.amazonaws.com:4200&quot;)</find>
+      <find>http</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sessions</replace>
+      <replace>ec2-3-21-240-234.us-east-2.compute.amazonaws.com</replace>
+      <replace>@CrossOrigin(origins = &quot;*&quot;, allowedHeaders = &quot;*&quot;)</replace>
+      <replace>https://ec2-3-21-240-234.us-east-2.compute.amazonaws.com</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionMapper.java" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/MapperTests.java" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/PersistenceTests.java" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/ProductServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/microservices/session-service/build/classes/java/main/com/akadimia/microservices/core/session/services/SessionMapperImpl.java" />
+        <option value="$PROJECT_DIR$/docker-compose-partitions.yml" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/user/User.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/MapperTests.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/PersistenceTests.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/build/classes/java/main/com/akadimia/microservices/core/user/services/UserMapperImpl.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/persistence/UserEntity.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/build.gradle" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/OnlineSession.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/persistence/UserRepository.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/OnlineSession.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/messaging/messaging.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/ReservationRequest.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/entity/user/ReservationRequestSerializer.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/messaging/Producer.java" />
+        <option value="$PROJECT_DIR$/api/build.gradle" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/settings.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/A.java" />
+        <option value="$PROJECT_DIR$/microservices/user-service/settings.gradle" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/build.gradle" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/persistence/ReservationRequestEntity.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/services/SessionMapper.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/services/ConfirmedReservationMapper.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/persistence/ConfirmedReservationRepository.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/services/ConfirmedReservationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/persistence/ConfirmedReservationEntity.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/entity/user/ReservationRequest.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/reservation/ConfirmedReservation.java" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/persistence/SessionEntity.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/Session.java" />
+        <option value="$PROJECT_DIR$/microservices/session-service/build.gradle" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/SessionServiceApplication.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/ReservationRequestServiceApplication.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/reservation/ConfirmedReservationService.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/SessionService.java" />
+        <option value="$PROJECT_DIR$/api/src/main/java/com/akadimia/core/user/UserService.java" />
+        <option value="$PROJECT_DIR$/microservices/reservation-request-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservices/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="723" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akad-services" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="akad-services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586954455783" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/api/src/main/java/com/akadimia" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.akadimia.microservices.core.reservationreqservice.services" />
+      <recent name="" />
+      <recent name="com.akadimia.core.session" />
+      <recent name="com.akadimia.microservices.core.user" />
+      <recent name="com.akadimia.microservices.core.session.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservices/session-service/out/production/classes" />
+      <recent name="$PROJECT_DIR$/microservices/reservation-request-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/microservices/reservation-request-service" />
+      <recent name="$PROJECT_DIR$/api/build/classes/java/main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.akad-services [build]">
+    <configuration name="akad-services [build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="-x test" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="akad-services:microservices:session-service [clean install]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservices/session-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="install" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SessionServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.akadimia.microservices.core.session.session-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akadimia.microservices.core.session.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akadimia.microservices.core.session.test" />
+      <option name="MAIN_CLASS_NAME" value="com.akadimia.microservices.core.session.test.SessionServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionServiceApplicationTests.duplicateError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.akadimia.microservices.core.session.session-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akadimia.microservices.core.session.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akadimia.microservices.core.session.test" />
+      <option name="MAIN_CLASS_NAME" value="com.akadimia.microservices.core.session.test.SessionServiceApplicationTests" />
+      <option name="METHOD_NAME" value="duplicateError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.akadimia.microservices.core.user.user-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akadimia.microservices.core.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akadimia.microservices.core.user" />
+      <option name="MAIN_CLASS_NAME" value="com.akadimia.microservices.core.user.UserServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplicationTests.getProductById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.akadimia.microservices.core.user.user-service.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akadimia.microservices.core.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.akadimia.microservices.core.user" />
+      <option name="MAIN_CLASS_NAME" value="com.akadimia.microservices.core.user.UserServiceApplicationTests" />
+      <option name="METHOD_NAME" value="getProductById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationRequestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="com.akadimia.microservices.core.reservation.reservation-request-service.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.akadimia.microservices.core.reservationreqservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akadimia.microservices.core.reservationreqservice.ReservationRequestServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SessionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.akadimia.microservices.core.session.session-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akadimia.microservices.core.session.SessionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.akadimia.microservices.core.user.user-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.akadimia.microservices.core.user.UserServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDocker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="microservices/user-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.UserDocker" />
+      <item itemvalue="Gradle.akad-services:microservices:session-service [clean install]" />
+      <item itemvalue="Gradle.akad-services [build]" />
+      <item itemvalue="JUnit.UserServiceApplicationTests" />
+      <item itemvalue="JUnit.SessionServiceApplicationTests" />
+      <item itemvalue="JUnit.UserServiceApplicationTests.getProductById" />
+      <item itemvalue="JUnit.SessionServiceApplicationTests.duplicateError" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.SessionServiceApplication" />
+      <item itemvalue="Spring Boot.ReservationRequestServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReservationRequestServiceApplication" />
+        <item itemvalue="JUnit.SessionServiceApplicationTests" />
+        <item itemvalue="JUnit.SessionServiceApplicationTests.duplicateError" />
+        <item itemvalue="JUnit.UserServiceApplicationTests" />
+        <item itemvalue="JUnit.UserServiceApplicationTests.getProductById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f716ec8d-e32d-4571-851e-6da082624961" name="Default Changelist" comment="" />
+      <created>1585596325021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585596325021</updated>
+      <workItem from="1585596329690" duration="9081000" />
+      <workItem from="1585664785789" duration="13399000" />
+      <workItem from="1585682756841" duration="21722000" />
+      <workItem from="1585943248787" duration="1500000" />
+      <workItem from="1586501027374" duration="14808000" />
+      <workItem from="1586521114230" duration="53235000" />
+      <workItem from="1586713672222" duration="680000" />
+      <workItem from="1586714411089" duration="11074000" />
+      <workItem from="1586752149027" duration="22881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserServiceApplicationTests - 2020.04.10 at 23h 51m 04s.xml">
+      <configuration name="UserServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceApplicationTests - 2020.04.11 at 00h 38m 59s.xml">
+      <configuration name="UserServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceApplicationTests - 2020.04.11 at 00h 43m 58s.xml">
+      <configuration name="UserServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceApplicationTests - 2020.04.12 at 22h 06m 22s.xml">
+      <configuration name="UserServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionServiceApplicationTests - 2020.04.12 at 22h 06m 50s.xml">
+      <configuration name="SessionServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionServiceApplicationTests_duplicateError - 2020.04.12 at 22h 07m 45s.xml">
+      <configuration name="SessionServiceApplicationTests.duplicateError" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionServiceApplicationTests_duplicateError - 2020.04.12 at 22h 08m 59s.xml">
+      <configuration name="SessionServiceApplicationTests.duplicateError" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionServiceApplicationTests_duplicateError - 2020.04.12 at 22h 30m 48s.xml">
+      <configuration name="SessionServiceApplicationTests.duplicateError" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionServiceApplicationTests - 2020.04.12 at 22h 31m 16s.xml">
+      <configuration name="SessionServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SessionServiceApplicationTests - 2020.04.12 at 22h 40m 35s.xml">
+      <configuration name="SessionServiceApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="148380000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="723" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3562197" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32594937" />
+      <window_info anchor="bottom" x="0" y="281" width="1280" height="213" id="Run" order="2" weight="0.7210777" />
+      <window_info anchor="bottom" x="0" y="45" width="1280" height="707" id="Debug" maximized="true" order="3" weight="0.38267717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.4113924" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.5354839" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.74167985" />
+      <window_info anchor="bottom" id="Docker" order="10" weight="0.4967742" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.40412045" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.3296355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26817447" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32594937" />
+      <window_info anchor="bottom" x="0" y="281" width="1280" height="213" id="Run" order="2" weight="0.7210777" />
+      <window_info anchor="bottom" x="0" y="45" width="1280" height="707" id="Debug" maximized="true" order="3" weight="0.38267717" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.4113924" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.5354839" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.89064974" />
+      <window_info anchor="bottom" id="Docker" order="10" weight="0.4967742" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.40412045" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.3296355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/MessageProcessor.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/SessionService.java</url>
+          <line>34</line>
+          <properties class="com.akadimia.core.session.SessionService" method="getSession">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>uriBuilder
+								.path(&quot;/userc/&quot;)
+								.queryParam(&quot;userId&quot;, userId)
+								.queryParam(&quot;firstName&quot;, &quot;Kunal&quot;)
+								.queryParam(&quot;lastName&quot;, &quot;Chowdhury&quot;)
+								.queryParam(&quot;emailId&quot;, &quot;kunalkumar.chowdhury@gmail.com&quot;)
+								.queryParam(&quot;state&quot;, &quot;Karnataka&quot;)
+								.queryParam(&quot;city&quot;, &quot;Bangalore&quot;)
+								.queryParam(&quot;zipCode&quot;, 780016)
+								.queryParam(&quot;instructor&quot;, true)
+								.queryParam(&quot;briefDescription&quot;, &quot;first time teacher&quot;)
+								.queryParam(&quot;youTubeURL&quot;, &quot;www.youtube.com&quot;)
+								.build()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newEntity.block()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sessionId.isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findBySessionId(sessionId)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findBySessionId(sessionId).block()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>producer.sendMessage(&quot;hello&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findByUserId(&quot;u123&quot;).block()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findByUserId(&quot;u124&quot;).block()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bodyContentSpec.json()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((DefaultWebTestClient.DefaultBodyContentSpec) bodyContentSpec).getBodyAsString()</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.springframework.test.web.reactive.server.DefaultWebTestClient</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>userFluxExchangeResult.body.blockFirst()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findBySessionId(&quot;g123&quot;).block()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findBySessionId(&quot;a123&quot;).block()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>repository.findBySessionId(&quot;a123&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bySessionId.blockOptional()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/out/production/classes/com/akadimia/entity/user/ReservationRequestSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/2.0.1/4c943c61e560d0ce36abaed760ca6f2af2132629/kafka-clients-2.0.1-sources.jar!/org/apache/kafka/common/serialization/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build/classes/java/main/com/akadimia/entity/user/ReservationRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build/classes/java/main/com/akadimia/entity/user/ReservationRequestSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#871#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/messaging/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1847#1848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka/2.2.3.RELEASE/d305374e004868d974467e89b508cb0ab7193a82/spring-kafka-2.2.3.RELEASE-sources.jar!/org/springframework/kafka/core/KafkaTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+          <folding>
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3135#3136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/user-service/src/test/java/com/akadimia/microservices/core/user/UserServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="189" column="69" selection-start-line="162" selection-start-column="8" selection-end-line="189" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/test/java/com/akadimia/microservices/core/session/test/SessionServiceApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/A.java" />
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/user-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/user-service/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/MessageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="56" selection-start-column="8" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/services/ConfirmedReservationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/persistence/SessionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/persistence/ConfirmedReservationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/out/production/classes/com/akadimia/microservices/core/session/services/SessionMapperImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/out/production/classes/generated/com/akadimia/microservices/core/session/services/SessionMapperImpl.java" />
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/persistence/SessionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="148" column="41" selection-start-line="148" selection-start-column="41" selection-end-line="148" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/entity/user/ReservationRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/build/classes/java/main/com/akadimia/microservices/core/session/services/SessionMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/persistence/ConfirmedReservationEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/SessionServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/user-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.2.RELEASE/9f311b1b0f10b22c1699933f48ecc2e6cce18800/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/ReservationRequestServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/reservation/ConfirmedReservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.4.RELEASE/1c97085f1052ad3206bafd364eba572d9f7565c2/spring-web-5.1.4.RELEASE-sources.jar!/org/springframework/web/bind/annotation/CrossOrigin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/resources/server.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/security/KeyStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="276" column="45" selection-start-line="276" selection-start-column="42" selection-end-line="276" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/user-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/user-service/src/main/java/com/akadimia/microservices/core/user/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/entity/user/ReservationRequestSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/reservation/ConfirmedReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/out/production/classes/com/akadimia/microservices/core/session/services/SessionServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="184" column="41" selection-start-line="184" selection-start-column="34" selection-end-line="184" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/akadimia/core/session/SessionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/reservation-request-service/src/main/java/com/akadimia/microservices/core/reservationreqservice/services/ConfirmedReservationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/java/com/akadimia/microservices/core/session/services/SessionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="51" column="88" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices/session-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>akad-services|akadimia-generic-services</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: org.springframework.kafka:spring-kafka:2.2.3.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

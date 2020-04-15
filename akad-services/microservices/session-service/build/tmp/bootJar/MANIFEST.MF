@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Start-Class: com.akadimia.microservices.core.session.SessionServiceApp
+ lication
+Main-Class: org.springframework.boot.loader.JarLauncher
+

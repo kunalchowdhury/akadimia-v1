@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="akadimia-generic-services.microservices.main" target="1.8" />
+      <module name="akadimia-generic-services.microservices.test" target="1.8" />
+      <module name="akadimia-generic-services.session-service.main" target="1.8" />
+      <module name="akadimia-generic-services.session-service.test" target="1.8" />
+      <module name="akadimia-generic-services.user-service.main" target="1.8" />
+      <module name="akadimia-generic-services.user-service.test" target="1.8" />
+      <module name="se.magnus.microservices.api.api.main" target="1.8" />
+      <module name="se.magnus.microservices.api.api.test" target="1.8" />
+      <module name="se.magnus.microservices.core.product.user-service.main" target="1.8" />
+      <module name="se.magnus.microservices.core.product.user-service.test" target="1.8" />
+      <module name="se.magnus.microservices.util.util.main" target="1.8" />
+      <module name="se.magnus.microservices.util.util.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
